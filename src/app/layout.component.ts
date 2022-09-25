@@ -29,8 +29,7 @@ export class LayoutComponent {
   addDarkThemeClass = this.enableDarkTheme;
 
   constructor(
-    @Inject(ENABLE_DARK_THEME_TOKEN) private enableDarkTheme: boolean,
-    private renderer2: Renderer2
+    @Inject(ENABLE_DARK_THEME_TOKEN) private enableDarkTheme: boolean
   ) { }
   
 }
